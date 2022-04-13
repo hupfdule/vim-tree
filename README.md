@@ -6,8 +6,6 @@ Vim and Nvim for all common operating systems.
 The plugin provides a single command, `:Tree`. It is perfect
 for quickly navigating and exploring complex directory hierarchies.
 
-![vim-tree in action](./demo.svg)
-
 ## Changes to upstream
 
 This is a (largely modified) clone of http://github.com/mhinz/vim-tree.
@@ -45,6 +43,17 @@ The following changes are made to upstream:
 - Allow tree buffers to be hidden (and reused later on)
 - Introduce a workaround for repeating the search. It didn't proceed if a
   search was found on the current line.
+
+## Screencasts
+
+### Basic Usage
+![Basic Usage](./vim-tree-basic.svg)
+### Advanced Usage
+![Advanced Usage](./vim-tree-advanced.svg)
+### Folding
+![Folding](./vim-tree-folding.svg)
+### Reloading Tree
+![Reloading Tree](./vim-tree-reload.svg)
 
 ## Installation
 
